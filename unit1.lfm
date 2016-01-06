@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 251
+  Height = 575
+  Top = 102
+  Width = 1077
+  Caption = 'Form1'
+  ClientHeight = 575
+  ClientWidth = 1077
+  Color = clBlack
+  LCLVersion = '1.4.4.0'
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object ScrollBox1: TScrollBox
+    Left = 8
+    Height = 652
+    Top = 40
+    Width = 1064
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    ClientHeight = 648
+    ClientWidth = 1060
+    TabOrder = 1
+    object Image1: TImage
+      Left = 0
+      Height = 88
+      Top = 0
+      Width = 136
+      AutoSize = True
+    end
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = Timer1Timer
+    left = 208
+    top = 8
+  end
+end
